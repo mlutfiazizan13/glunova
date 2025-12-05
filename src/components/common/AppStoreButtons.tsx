@@ -2,7 +2,7 @@ import apple from "../../assets/apple.png";
 
 const AppStoreButtons = () => {
   return (
-    <div className="flex flex-wrap items-center gap-4">
+    <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 p-4 sm:p-8 w-full max-w-2xl mx-auto">
       {/* Apple App Store Button */}
       <a
         href="#"
