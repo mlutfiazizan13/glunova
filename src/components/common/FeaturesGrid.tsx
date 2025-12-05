@@ -36,7 +36,7 @@ const FeaturesGrid = () => {
                     <img className='w-[60px] h-[60px] mb-6' src={pick3} alt="" />
 
                     <h3 className="text-[#F7A500] text-2xl font-semibold mb-2">Clear Insights</h3>
-                    <p className="">Log your Glucose, Carbs, Meds, and Activity in one place — quick, simple, and organized.</p>
+                    <p className="">Understand your health better with easy-to-read charts that show trends and progress over time.</p>
                 </div>
 
             </div>

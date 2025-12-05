@@ -8,8 +8,8 @@ export function Header() {
             <a href="/">
                 <img src={icon} alt="Logo" />
             </a>
-            <Button className="bg-[#eb425e] rounded-full">
-                <Download className="w-5 h-5" />
+            <Button className="bg-[#eb425e] p-6 text-base rounded-full">
+                <Download size={40} className="mr-1" />
                 Download App</Button>
         </header>
     );

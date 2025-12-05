@@ -5,6 +5,7 @@ import imgImage23 from "../../assets/9937b53a43f54fc9a3bd50dca28368b6a21c5066.pn
 import imgImage24 from "../../assets/afcadc3f6d153c7e0bc7f68ac5b96ea6c168ab6e.png";
 import imgImage26 from "../../assets/3943c5bb38abddfadfb12597dad516028ec0c561.png";
 import imgImage25 from "../../assets/8ff904e244a2c30f9dc7163e55ae2c5d32edca5b.png";
+import AppStoreButtons from "./AppStoreButtons";
 
 const Hero = () => {
     return (
@@ -31,11 +32,15 @@ const Hero = () => {
                 <span className="font-['Inter:Medium',sans-serif] font-medium"> </span>blood sugar tracking for better health.
             </p>
 
+            <div className="p-8">
+                <AppStoreButtons />
+            </div>
+
 
 
             {/* Phone Mockup */}
 
-            <div className="relative flex items-center justify-center h-[400px] md:h-[600px] lg:h-[821px] w-[250px] md:w-[300px] lg:w-[398px]">
+            <div className="relative flex items-center justify-center h-[400px] md:h-[700px] lg:h-[921px] w-[250px] md:w-[300px] lg:w-[498px]">
                 <img alt="Glunova app interface" className="inset-0 object-cover pointer-events-none size-full" src={imgHero11} />
             </div>
 

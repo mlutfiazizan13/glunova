@@ -10,7 +10,7 @@ import Testimonials from './components/common/Testimonials'
 function App() {
 
   return (
-    <div className="bg-white relative min-h-screen overflow-x-hidden">
+    <div id='home' className="bg-white relative min-h-screen overflow-x-hidden">
       <Header />
 
       <Hero />

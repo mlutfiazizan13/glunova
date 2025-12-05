@@ -1,5 +1,6 @@
 // import { AppStoreButtons } from "./AppStoreButtons";
 import imgPhoneHandTransparant1 from "../../assets/c3dd20cf952d87b82658ef9a52913a3a672903b0.png";
+import AppStoreButtons from "./AppStoreButtons";
 
 export function CTASection() {
   return (
@@ -21,7 +22,8 @@ export function CTASection() {
                 </div>
 
                 {/* App Store Buttons */}
-                {/* <AppStoreButtons /> */}
+                <AppStoreButtons />
+                
 
                 {/* Phone Hand Image - hidden on mobile */}
                 <div className="hidden lg:block absolute h-[591px] right-[-67px] top-0 w-[648px]">
