@@ -1,11 +1,10 @@
-import { useState, useRef, useEffect } from "react";
-import { ArrowLeft, ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
+import { useState, useEffect } from "react";
+import { ArrowLeft, ArrowRight} from "lucide-react";
 import {
     Carousel,
     CarouselContent,
     CarouselItem,
-    CarouselNext,
-    CarouselPrevious,
+    type CarouselApi,
 } from "@/components/ui/carousel";
 import { TestimonialCard } from "./TestimonialCard";
 import imgEllipse34 from "../../assets/1399a9b91e3222d34fd0a1698446421eff9a3d5d.png";
@@ -13,7 +12,7 @@ import imgEllipse35 from "../../assets/586d85a4a34613d09d70de05f5847a0c0d151e89.
 
 
 const Testimonials = () => {
-    const [api, setApi] = useState(null);
+    const [api, setApi] = useState<CarouselApi | null>(null);
 
     // Custom autoplay with useEffect
     useEffect(() => {

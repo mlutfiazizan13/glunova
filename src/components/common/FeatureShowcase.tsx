@@ -141,7 +141,7 @@ const FeatureShowcase = ({
                 </div>
             </div>
 
-            <style jsx>{`
+            <style>{`
         @keyframes float {
           0%, 100% { transform: translateY(0) rotate(var(--rotation)); }
           50% { transform: translateY(-10px) rotate(var(--rotation)); }
